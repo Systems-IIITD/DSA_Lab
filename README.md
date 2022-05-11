@@ -13,8 +13,12 @@ Run ``make search2_notail'' to compile search2.c with
 all optimizations except the tail call optimization.
 
 Run,
+
 time ./search1
+
 time ./search2
+
 time ./search2_notail
+
 to obtain the runtime of the iterative, recursive, and
 recursive without tail optimization algorithms.
